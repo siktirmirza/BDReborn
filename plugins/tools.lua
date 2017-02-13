@@ -571,7 +571,7 @@ if matches[1] == 'sudolist' and is_sudo(msg) then
 return sudolist(msg)
     end
 if matches[1] == 'beyond' then
-return tdcli.sendMessage(msg.chat_id_, msg.id_, 1, _config.info_text, 1, 'html')
+return
     end
 if matches[1] == 'adminlist' and is_admin(msg) then
 return adminlist(msg)
